@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLmotos</title>
+    <link rel="stylesheet" href="moto.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <nav>
+                <p>SLmotos</p>
+                <ul>
+                    <li><a href="#catalog"></a>catálogo</li>
+                    <li><a href="#about"></a>Sobre</li>
+                    <li><a href="#feature"></a>contatos</li>
+                    <button>login</button>
+                </ul>
+            </nav>
+            <div class="header-block">
+                <div class="text">
+                    <h2>A moto perfeita para voçê</h2>
+                    <p>Aqui na SLmotos voçê encontra diversas variedades de motocicletas, com preços que cabem no seu bolso.</p>
+                </div>
+                <img src="af8129f5e4465b951df48be88fc2ad85.jpg" alt="bmw">
+
+            </div>
+
+        </div>
+    </header>
+    <section class="catalogo" id="catálogo"></section>
+    <div class="content"> 
+        <div class="tittle-wrapper-catalago">
+            <p>  </p>
+            <h3>Catálogo</h3>
+        </div>  
+        <div class="filter-card">
+            <input type="text" 
+            class="search-input" 
+            placeholder="Coloque sua moto favorita">
+        </div>
+        <button class="search-button">Buscar</button>
+    </div>
+    <div class="card-wrapper">
+        <div class="card-item">
+            <img src="fazer.jpg" alt="moto" width="250px">
+            <div class="card-content">
+                <h3>Fazer 250 ABS</h3>
+                <p> A Fazer FZ25 ABS oferece uma ótima posição de pilotagem, 
+                    combinando conforto e esportividade para o seu dia a dia.
+                    Um equilíbrio perfeito entre prazer e diversão.
+                     Agora com nova posição do lampejador do farol que facilita o uso.</p>
+                <button type="button">Eu quero esse</button>
+            </div>
+            <div class="card-item">
+                <img src="xre.jpg" alt="moto" width="250px">
+                <div class="card-content">
+                    <h3>XRE 300</h3>
+                    <p> A XRE 300 é uma motocicleta on-off-road fabricada pela Honda.</p>
+                    <button type="button">Eu quero esse</button>
+                </div>
+            </div>
+            <div class="card-itemr.jpg"">
+                <img src="kawa.jpeg" alt="moto" width="250px">
+                <div class="card-content">
+                    <h3>Kawasaki z1000</h3>
+                    <p> Os novos ajustes no motor e chassi proporcionam uma pilotagem mais rígida, 
+                        direta, transformando a Z1000 na mais radical</p>
+                    <button type="button">Eu quero esse</button>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="cb1000.webp" alt="moto" width="250px">
+                <div class="card-content">
+                    <h3>Cb1000R</h3>
+                    <p>A CB 500F possui suspensão invertida do tipo Separate Function Fork (SFF).
+                         Possui embreagem deslizante trazendo mais confiança e performance na pilotagem.</p>
+                    <button type="button">Eu quero esse</button>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="BMW.webp" alt="moto" width="250px">
+                <div class="card-content">
+                    <h3>BMW S 1000XR</h3>
+                    <p> é uma motocicleta esportiva de turismo produzida pela BMW Motorrad desde 2015. </p>
+                    <button type="button">Eu quero esse</button>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="motos-2022-68.webp" alt="moto" width="250px">
+                <div class="card-content">
+                    <h3>Yamaha R-7/h3>
+                    <p>  Mecânica e motor da R7. Inicialmente, os freios dianteiros receberam uma repaginada.</p>
+                    <button type="button">Eu quero esse</button>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="suzuik.webp" alt="moto" width="250px">
+                <div class="card-content">
+                    <h3>Suzuki GSX-S 1000GT</h3>
+                    <p> Derivada da GSX-S1000 com a qual partilha o mecânica e outros elementos a GSX-S1000GT
+                         foi criada com o sentido de potenciar o prazer de condução.</p>
+                    <button type="button">Eu quero esse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title-wrapper-about">
+                <p>Sobre nós</p>
+                <h3>Sobre</h3>
+            </div>
+            <div class="about-content">
+                <div class="left">
+                    <img src="feature-planet.png" alt="about">
+                </div>
+                <div class="right">
+                    <h3>Conforto e mobilidade</h3>
+                    <p>Uma pagina criada com intuito de treinar programação,em busca da primeira oportunidade de 
+                        emprego na area da tecnologia, sempre buscando melhorar e ficando por dentro de todas e novas
+                        tecnologias que vierem. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
